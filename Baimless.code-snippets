@@ -1,0 +1,1624 @@
+{
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////// INTERFACES ////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
+        ///////////////////////////////////////////// IGLOBALS //////////////////////////////////////////////////////	
+        "IGlobals": {
+            "prefix": "IGlobals",
+            "body": [
+                "IGlobals"
+            ]
+        },
+        
+        "IGlobals.flRealTime": {
+            "prefix": "IGlobals.flRealTime",
+            "body": [
+                "IGlobals.flRealTime"
+            ]
+        },
+    
+        "IGlobals.iFrameCount": {
+            "prefix": "IGlobals.iFrameCount",
+            "body": [
+                "IGlobals.iFrameCount"
+            ]
+        },
+    
+        "IGlobals.flAbsFrameTime": {
+            "prefix": "IGlobals.flAbsFrameTime",
+            "body": [
+                "IGlobals.flAbsFrameTime"
+            ]
+        },
+    
+        "IGlobals.flAbsFrameStartTime": {
+            "prefix": "IGlobals.flAbsFrameStartTime",
+            "body": [
+                "IGlobals.flAbsFrameStartTime"
+            ]
+        },
+    
+        "IGlobals.flCurrentTime": {
+            "prefix": "IGlobals.flCurrentTime",
+            "body": [
+                "IGlobals.flCurrentTime"
+            ]
+        },
+    
+        "IGlobals.flFrameTime": {
+            "prefix": "IGlobals.flFrameTime",
+            "body": [
+                "IGlobals.flFrameTime"
+            ]
+        },
+    
+        "IGlobals.nMaxClients": {
+            "prefix": "IGlobals.nMaxClients",
+            "body": [
+                "IGlobals.nMaxClients"
+            ]
+        },
+    
+        "IGlobals.iTickCount": {
+            "prefix": "IGlobals.iTickCount",
+            "body": [
+                "IGlobals.iTickCount"
+            ]
+        },
+    
+        "IGlobals.flIntervalPerTick": {
+            "prefix": "IGlobals.flIntervalPerTick",
+            "body": [
+                "IGlobals.flIntervalPerTick"
+            ]
+        },
+    
+        "IGlobals.flInterpolationAmount": {
+            "prefix": "IGlobals.flInterpolationAmount",
+            "body": [
+                "IGlobals.flInterpolationAmount"
+            ]
+        },
+    
+        "IGlobals.nFrameSimulationTicks": {
+            "prefix": "IGlobals.nFrameSimulationTicks",
+            "body": [
+                "IGlobals.nFrameSimulationTicks"
+            ]
+        },
+    
+        "IGlobals.iNetworkProtocol": {
+            "prefix": "IGlobals.iNetworkProtocol",
+            "body": [
+                "IGlobals.iNetworkProtocol"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// ICLIENTSTATE //////////////////////////////////////////////////////
+        "IClientState": {
+            "prefix": "IClientState",
+            "body": [
+                "IClientState"
+            ]
+        },
+    
+        "IClientState.iChallengeNr": {
+            "prefix": "IClientState.iChallengeNr",
+            "body": [
+                "IClientState.iChallengeNr"
+            ]
+        },
+    
+        "IClientState.iSignonState": {
+            "prefix": "IClientState.iSignonState",
+            "body": [
+                "IClientState."
+            ]
+        },
+    
+        "IClientState.flNextCmdTime": {
+            "prefix": "IClientState.flNextCmdTime",
+            "body": [
+                "IClientState.flNextCmdTime"
+            ]
+        },
+    
+        "IClientState.nServerCount": {
+            "prefix": "IClientState.nServerCount",
+            "body": [
+                "IClientState.nServerCount"
+            ]
+        },
+    
+        "IClientState.iCurrentSequence": {
+            "prefix": "IClientState.iCurrentSequence",
+            "body": [
+                "IClientState.iCurrentSequence"
+            ]
+        },
+    
+        "IClientState.iDeltaTick": {
+            "prefix": "IClientState.iDeltaTick",
+            "body": [
+                "IClientState.iDeltaTick"
+            ]
+        },
+    
+        "IClientState.bPaused": {
+            "prefix": "IClientState.bPaused",
+            "body": [
+                "IClientState.bPaused"
+            ]
+        },
+    
+        "IClientState.iViewEntity": {
+            "prefix": "IClientState.iViewEntity",
+            "body": [
+                "IClientState.iViewEntity"
+            ]
+        },
+    
+        "IClientState.iPlayerSlot": {
+            "prefix": "IClientState.iPlayerSlot",
+            "body": [
+                "IClientState.iPlayerSlot"
+            ]
+        },
+    
+        "IClientState.nMaxClients": {
+            "prefix": "IClientState.nMaxClients",
+            "body": [
+                "IClientState.nMaxClients"
+            ]
+        },
+    
+        "IClientState.flLastServerTickTime": {
+            "prefix": "IClientState.flLastServerTickTime",
+            "body": [
+                "IClientState.flLastServerTickTime"
+            ]
+        },
+    
+        "IClientState.bInSimulation": {
+            "prefix": "IClientState.bInSimulation",
+            "body": [
+                "IClientState.bInSimulation"
+            ]
+        },
+    
+        "IClientState.iOldTickcount": {
+            "prefix": "IClientState.iOldTickcount",
+            "body": [
+                "IClientState.iOldTickcount"
+            ]
+        },
+    
+        "IClientState.flFrameTime": {
+            "prefix": "IClientState.flFrameTime",
+            "body": [
+                "IClientState.flFrameTime"
+            ]
+        },
+    
+        "IClientState.iLastOutgoingCommand": {
+            "prefix": "IClientState.iLastOutgoingCommand",
+            "body": [
+                "IClientState.iLastOutgoingCommand"
+            ]
+        },
+    
+        "IClientState.nChokedCommands": {
+            "prefix": "IClientState.nChokedCommands",
+            "body": [
+                "IClientState.nChokedCommands"
+            ]
+        },
+    
+        "IClientState.iLastCommandAck": {
+            "prefix": "IClientState.iLastCommandAck",
+            "body": [
+                "IClientState.iLastCommandAck"
+            ]
+        },
+    
+        "IClientState.iCommandAck": {
+            "prefix": "IClientState.iCommandAck",
+            "body": [
+                "IClientState.iCommandAck"
+            ]
+        },
+    
+        "IClientState.iSoundSequence": {
+            "prefix": "IClientState.iSoundSequence",
+            "body": [
+                "IClientState.iSoundSequence"
+            ]
+        },
+    
+        "IClientState.angViewPoint": {
+            "prefix": "IClientState.angViewPoint",
+            "body": [
+                "IClientState.angViewPoint"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// ICONVAR //////////////////////////////////////////////////////
+        "IConVar": {
+            "prefix": "IConVar",
+            "body": [
+                "IConVar"
+            ]
+        },
+    
+        "IConVar.FindVar": {
+            "prefix": "IConVar.FindVar",
+            "body": [
+                "IConVar.FindVar('')"
+            ]
+        },
+    
+        "IConVar.ConsolePrintf": {
+            "prefix": "IConVar.ConsolePrintf",
+            "body": [
+                "IConVar.ConsolePrintf('')"
+            ]
+        },
+    
+        "IConVar.ConsoleColorPrintf": {
+            "prefix": "IConVar.ConsoleColorPrintf",
+            "body": [
+                "IConVar.ConsoleColorPrintf(Color.new(), '')"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// IENGINE //////////////////////////////////////////////////////
+        "IEngine": {
+            "prefix": "IEngine",
+            "body": [
+                "IEngine"
+            ]
+        },
+    
+        "IEngine.GetScreenSize": {
+            "prefix": "IEngine.GetScreenSize",
+            "body": [
+                "IEngine.GetScreenSize()"
+            ]
+        },
+    
+        "IEngine.GetPlayerInfo": {
+            "prefix": "IEngine.GetPlayerInfo",
+            "body": [
+                "IEngine.GetPlayerInfo()"
+            ]
+        },
+    
+        "IEngine.GetPlayerForUserID": {
+            "prefix": "IEngine.GetPlayerForUserID",
+            "body": [
+                "IEngine.GetPlayerForUserID()"
+            ]
+        },
+    
+        "IEngine.GetLocalPlayer": {
+            "prefix": "IEngine.GetLocalPlayer",
+            "body": [
+                "IEngine.GetLocalPlayer()"
+            ]
+        },
+    
+        "IEngine.GetViewAngles": {
+            "prefix": "IEngine.GetViewAngles",
+            "body": [
+                "IEngine.GetViewAngles()"
+            ]
+        },
+    
+        "IEngine.SetViewAngles": {
+            "prefix": "IEngine.SetViewAngles",
+            "body": [
+                "IEngine.SetViewAngles(QAngle.new())"
+            ]
+        },
+    
+        "IEngine.GetMaxClients": {
+            "prefix": "IEngine.GetMaxClients",
+            "body": [
+                "IEngine.GetMaxClients()"
+            ]
+        },
+    
+        "IEngine.IsInGame": {
+            "prefix": "IEngine.IsInGame",
+            "body": [
+                "IEngine.IsInGame()"
+            ]
+        },
+    
+        "IEngine.IsConnected": {
+            "prefix": "IEngine.IsConnected",
+            "body": [
+                "IEngine.IsConnected()"
+            ]
+        },
+    
+        "IEngine.GetLevelName": {
+            "prefix": "IEngine.GetLevelName",
+            "body": [
+                "IEngine.GetLevelName()"
+            ]
+        },
+    
+        "IEngine.GetLevelNameShort": {
+            "prefix": "IEngine.GetLevelNameShort",
+            "body": [
+                "IEngine.GetLevelNameShort()"
+            ]
+        },
+    
+        "IEngine.GetMapGroupName": {
+            "prefix": "IEngine.GetMapGroupName",
+            "body": [
+                "IEngine.GetMapGroupName()"
+            ]
+        },
+    
+        "IEngine.GetNetChannelInfo": {
+            "prefix": "IEngine.GetNetChannelInfo",
+            "body": [
+                "IEngine.GetNetChannelInfo()"
+            ]
+        },
+    
+        "IEngine.IsPlayingDemo": {
+            "prefix": "IEngine.IsPlayingDemo",
+            "body": [
+                "IEngine.IsPlayingDemo()"
+            ]
+        },
+    
+        "IEngine.IsRecordingDemo": {
+            "prefix": "IEngine.IsRecordingDemo",
+            "body": [
+                "IEngine.IsRecordingDemo()"
+            ]
+        },
+    
+        "IEngine.IsPaused": {
+            "prefix": "IEngine.IsPaused",
+            "body": [
+                "IEngine.IsPaused()"
+            ]
+        },
+    
+        "IEngine.IsHLTV": {
+            "prefix": "IEngine.IsHLTV",
+            "body": [
+                "IEngine.IsHLTV()"
+            ]
+        },
+    
+        "IEngine.ExecuteClientCmd": {
+            "prefix": "IEngine.ExecuteClientCmd",
+            "body": [
+                "IEngine.ExecuteClientCmd('')"
+            ]
+        },
+    
+        "IEngine.ClientCmdUnrestricted": {
+            "prefix": "IEngine.ClientCmdUnrestricted",
+            "body": [
+                "IEngine.ClientCmdUnrestricted('')"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// IENTITYLIST //////////////////////////////////////////////////////
+        "IEntityList": {
+            "prefix": "IEntityList",
+            "body": [
+                "IEntityList"
+            ]
+        },
+    
+        "IEntityList.GetClientEntity": {
+            "prefix": "IEntityList.GetClientEntity",
+            "body": [
+                "IEntityList.GetClientEntity()"
+            ]
+        },
+    
+        "IEntityList.GetClientEntityFromHandle": {
+            "prefix": "IEntityList.GetClientEntityFromHandle",
+            "body": [
+                "IEntityList.GetClientEntityFromHandle()"
+            ]
+        },
+    
+        "IEntityList.GetHighestEntityIndex": {
+            "prefix": "IEntityList.GetHighestEntityIndex",
+            "body": [
+                "IEntityList.GetHighestEntityIndex()"
+            ]
+        },
+    
+    
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////// CLASSES ///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
+        ///////////////////////////////////////////// IENTITYLIST //////////////////////////////////////////////////////
+        "PlayerInfo_t": {
+            "prefix": "PlayerInfo_t",
+            "body": [
+                "PlayerInfo_t"
+            ]
+        },
+    
+        "PlayerInfo_t.ullXuid": {
+            "prefix": "PlayerInfo_t.ullXuid",
+            "body": [
+                "PlayerInfo_t.ullXuid"
+            ]
+        },
+    
+        "PlayerInfo_t.nXuidLow": {
+            "prefix": "PlayerInfo_t.nXuidLow",
+            "body": [
+                "PlayerInfo_t.nXuidLow"
+            ]
+        },
+    
+        "PlayerInfo_t.nXuidHigh": {
+            "prefix": "PlayerInfo_t.nXuidHigh",
+            "body": [
+                "PlayerInfo_t.nXuidHigh"
+            ]
+        },
+    
+        "PlayerInfo_t.szName": {
+            "prefix": "PlayerInfo_t.szName",
+            "body": [
+                "PlayerInfo_t.szName"
+            ]
+        },
+    
+        "PlayerInfo_t.nUserID": {
+            "prefix": "PlayerInfo_t.nUserID",
+            "body": [
+                "PlayerInfo_t.nUserID"
+            ]
+        },
+    
+        "PlayerInfo_t.nFriendsID": {
+            "prefix": "PlayerInfo_t.nFriendsID",
+            "body": [
+                "PlayerInfo_t.nFriendsID"
+            ]
+        },
+    
+        "PlayerInfo_t.bFakePlayer": {
+            "prefix": "PlayerInfo_t.bFakePlayer",
+            "body": [
+                "PlayerInfo_t.bFakePlayer"
+            ]
+        },
+    
+        "PlayerInfo_t.bIsHLTV": {
+            "prefix": "PlayerInfo_t.bIsHLTV",
+            "body": [
+                "PlayerInfo_t.bIsHLTV"
+            ]
+        },
+    
+        "PlayerInfo_t.dFilesDownloaded": {
+            "prefix": "PlayerInfo_t.dFilesDownloaded",
+            "body": [
+                "PlayerInfo_t.dFilesDownloaded"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// CBASECOMBATWEAPON //////////////////////////////////////////////////////
+        "CBaseCombatWeapon:IsReloading": {
+            "prefix": ":IsReloading",
+            "body": [
+                ":IsReloading()"
+            ]
+        },
+    
+        "CBaseCombatWeapon:IsWeapon": {
+            "prefix": ":IsWeapon",
+            "body": [
+                ":IsWeapon()"
+            ]
+        },
+    
+        "CBaseCombatWeapon:GetItemDefinitionIndex": {
+            "prefix": ":GetItemDefinitionIndex",
+            "body": [
+                ":GetItemDefinitionIndex()"
+            ]
+        },
+    
+        "CBaseCombatWeapon:GetSpread": {
+            "prefix": ":GetSpread",
+            "body": [
+                ":GetSpread()"
+            ]
+        },
+    
+        "CBaseCombatWeapon:GetInaccuracy": {
+            "prefix": ":GetInaccuracy",
+            "body": [
+                ":GetInaccuracy()"
+            ]
+        },
+    
+        "CBaseCombatWeapon:GetMaxTickbaseShift": {
+            "prefix": ":GetMaxTickbaseShift",
+            "body": [
+                ":GetMaxTickbaseShift()"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// IGAMEEVENT //////////////////////////////////////////////////////
+        "IGameEvent:GetName": {
+            "prefix": ":GetName",
+            "body": [
+                ":GetName()"
+            ]
+        },
+    
+        "IGameEvent:GetBool": {
+            "prefix": ":GetBool",
+            "body": [
+                ":GetBool()"
+            ]
+        },
+    
+        "IGameEvent:GetInt": {
+            "prefix": ":GetInt",
+            "body": [
+                ":GetInt()"
+            ]
+        },
+    
+        "IGameEvent:GetUint64": {
+            "prefix": ":GetUint64",
+            "body": [
+                ":GetUint64()"
+            ]
+        },
+    
+        "IGameEvent:GetFloat": {
+            "prefix": ":GetFloat",
+            "body": [
+                ":GetFloat()"
+            ]
+        },
+    
+        "IGameEvent:GetString": {
+            "prefix": ":GetString",
+            "body": [
+                ":GetString()"
+            ]
+        },
+    
+        "IGameEvent:SetBool": {
+            "prefix": ":SetBool",
+            "body": [
+                ":SetBool()"
+            ]
+        },
+    
+        "IGameEvent:SetInt": {
+            "prefix": ":SetInt",
+            "body": [
+                ":SetInt()"
+            ]
+        },
+    
+        "IGameEvent:SetUint64": {
+            "prefix": ":SetUint64",
+            "body": [
+                ":SetUint64()"
+            ]
+        },
+    
+        "IGameEvent:SetFloat": {
+            "prefix": ":SetFloat",
+            "body": [
+                ":SetFloat()"
+            ]
+        },
+    
+        "IGameEvent:SetString": {
+            "prefix": ":SetString",
+            "body": [
+                ":SetString()"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// INETCHANNELINFO //////////////////////////////////////////////////////
+        "INetChannelInfo:GetName": {
+            "prefix": ":GetName",
+            "body": [
+                ":GetName()"
+            ]
+        },
+    
+        "INetChannelInfo:GetAddress": {
+            "prefix": ":GetAddress",
+            "body": [
+                ":GetAddress()"
+            ]
+        },
+    
+        "INetChannelInfo:IsLoopback": {
+            "prefix": ":IsLoopback",
+            "body": [
+                ":IsLoopback()"
+            ]
+        },
+    
+        "INetChannelInfo:IsPlayback": {
+            "prefix": ":IsPlayback",
+            "body": [
+                ":IsPlayback()"
+            ]
+        },
+    
+        "INetChannelInfo:GetLatency": {
+            "prefix": ":GetLatency",
+            "body": [
+                ":GetLatency()"
+            ]
+        },
+    
+        "INetChannelInfo:GetAvgLatency": {
+            "prefix": ":GetAvgLatency",
+            "body": [
+                ":GetAvgLatency()"
+            ]
+        },
+    
+        "INetChannelInfo:GetAvgLoss": {
+            "prefix": ":GetAvgLoss",
+            "body": [
+                ":GetAvgLoss()"
+            ]
+        },
+    
+        "INetChannelInfo:GetAvgChoke": {
+            "prefix": ":GetAvgChoke",
+            "body": [
+                ":GetAvgChoke()"
+            ]
+        },
+    
+        "INetChannelInfo:GetAvgData": {
+            "prefix": ":GetAvgData",
+            "body": [
+                ":GetAvgData()"
+            ]
+        },
+    
+        "INetChannelInfo:GetAvgPackets": {
+            "prefix": ":GetAvgPackets",
+            "body": [
+                ":GetAvgPackets()"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// CBASEENTITY //////////////////////////////////////////////////////
+        "CBaseEntity": {
+            "prefix": "CBaseEntity",
+            "body": [
+                "CBaseEntity"
+            ]
+        },
+    
+        "CBaseEntity.GetLocalPlayer": {
+            "prefix": "CBaseEntity.GetLocalPlayer",
+            "body": [
+                "CBaseEntity.GetLocalPlayer()"
+            ]
+        },
+    
+        "CBaseEntity.GetWeapon": {
+            "prefix": "CBaseEntity.GetWeapon",
+            "body": [
+                "CBaseEntity.GetWeapon()"
+            ]
+        },
+    
+        "CBaseEntity.GetSequenceActivity": {
+            "prefix": "CBaseEntity.GetSequenceActivity",
+            "body": [
+                "CBaseEntity.GetSequenceActivity()"
+            ]
+        },
+    
+        "CBaseEntity.IsAlive": {
+            "prefix": "CBaseEntity.IsAlive",
+            "body": [
+                "CBaseEntity.IsAlive()"
+            ]
+        },
+    
+        "CBaseEntity.IsPlayer": {
+            "prefix": "CBaseEntity.IsPlayer",
+            "body": [
+                "CBaseEntity.IsPlayer()"
+            ]
+        },
+    
+        "CBaseEntity.IsEnemy": {
+            "prefix": "CBaseEntity.IsEnemy",
+            "body": [
+                "CBaseEntity.IsEnemy()"
+            ]
+        },
+    
+        "CBaseEntity.IsVisible": {
+            "prefix": "CBaseEntity.IsVisible",
+            "body": [
+                "CBaseEntity.IsVisible()"
+            ]
+        },
+    
+        "CBaseEntity.GetSimulationTime": {
+            "prefix": "CBaseEntity.GetSimulationTime",
+            "body": [
+                "CBaseEntity.GetSimulationTime()"
+            ]
+        },
+    
+        "CBaseEntity.GetOldSimulationTime": {
+            "prefix": "CBaseEntity.GetOldSimulationTime",
+            "body": [
+                "CBaseEntity.GetOldSimulationTime()"
+            ]
+        },
+    
+        "CBaseEntity.GetSpawnTime": {
+            "prefix": "CBaseEntity.GetSpawnTime",
+            "body": [
+                "CBaseEntity.GetSpawnTime()"
+            ]
+        },
+    
+        "CBaseEntity.GetMoveType": {
+            "prefix": "CBaseEntity.GetMoveType",
+            "body": [
+                "CBaseEntity.GetMoveType()"
+            ]
+        },
+    
+        "CBaseEntity.GetEyePosition": {
+            "prefix": "CBaseEntity.GetEyePosition",
+            "body": [
+                "CBaseEntity.GetEyePosition()"
+            ]
+        },
+    
+        "CBaseEntity.GetBonePosition": {
+            "prefix": "CBaseEntity.GetBonePosition",
+            "body": [
+                "CBaseEntity.GetBonePosition()"
+            ]
+        },
+    
+        "CBaseEntity.GetHitGroupPosition": {
+            "prefix": "CBaseEntity.GetHitGroupPosition",
+            "body": [
+                "CBaseEntity.GetHitGroupPosition()"
+            ]
+        },
+    
+        ///////////////////////////////////////////// ICLIENTENTITY //////////////////////////////////////////////////////
+        "IClientEntity:GetRefEHandle": {
+            "prefix": ":GetRefEHandle",
+            "body": [
+                ":GetRefEHandle()"
+            ]
+        },
+    
+        "IClientEntity:GetRenderOrigin": {
+            "prefix": ":GetRenderOrigin",
+            "body": [
+                ":GetRenderOrigin()"
+            ]
+        },
+    
+        "IClientEntity:GetRenderAngles": {
+            "prefix": ":GetRenderAngles",
+            "body": [
+                ":GetRenderAngles()"
+            ]
+        },
+    
+        "IClientEntity:IsDormant": {
+            "prefix": ":IsDormant",
+            "body": [
+                ":IsDormant()"
+            ]
+        },
+    
+        "IClientEntity:GetIndex": {
+            "prefix": ":GetIndex",
+            "body": [
+                ":GetIndex()"
+            ]
+        },
+    
+        "IClientEntity:GetAbsOrigin": {
+            "prefix": ":GetAbsOrigin",
+            "body": [
+                ":GetAbsOrigin()"
+            ]
+        },
+    
+        "IClientEntity:GetAbsAngles": {
+            "prefix": ":GetAbsAngles",
+            "body": [
+                ":GetAbsAngles()"
+            ]
+        },
+    
+        "IClientEntity:SetAbsOrigin": {
+            "prefix": ":SetAbsOrigin",
+            "body": [
+                ":SetAbsOrigin(Vector.new())"
+            ]
+        },
+    
+        "IClientEntity:SetAbsAngles": {
+            "prefix": ":SetAbsAngles",
+            "body": [
+                ":SetAbsAngles(QAngle.new())"
+            ]
+        },
+    
+        "IClientEntity:SetModelIndex": {
+            "prefix": ":SetModelIndex",
+            "body": [
+                ":SetModelIndex()"
+            ]
+        },
+    
+        "IClientEntity:GetPropertyBool": {
+            "prefix": ":GetPropertyBool",
+            "body": [
+                ":GetPropertyBool()"
+            ]
+        },
+    
+        "IClientEntity:GetPropertyInt": {
+            "prefix": ":GetPropertyInt",
+            "body": [
+                ":GetPropertyInt()"
+            ]
+        },
+    
+        "IClientEntity:GetPropertyFloat": {
+            "prefix": ":GetPropertyFloat",
+            "body": [
+                ":GetPropertyFloat()"
+            ]
+        },
+    
+        "IClientEntity:GetPropertyVector": {
+            "prefix": ":GetPropertyVector",
+            "body": [
+                ":GetPropertyVector()"
+            ]
+        },
+    
+        "IClientEntity:GetPropertyVector2D": {
+            "prefix": ":GetPropertyVector2D",
+            "body": [
+                ":GetPropertyVector2D()"
+            ]
+        },
+    
+        "IClientEntity:GetPropertyQAngle": {
+            "prefix": ":GetPropertyQAngle",
+            "body": [
+                ":GetPropertyQAngle()"
+            ]
+        },
+    
+        "IClientEntity:GetPropertyHandle": {
+            "prefix": ":GetPropertyHandle",
+            "body": [
+                ":GetPropertyHandle()"
+            ]
+        },
+    
+        "IClientEntity:SetPropertyBool": {
+            "prefix": ":SetPropertyBool",
+            "body": [
+                ":SetPropertyBool()"
+            ]
+        },
+    
+        "IClientEntity:SetPropertyInt": {
+            "prefix": ":SetPropertyInt",
+            "body": [
+                ":SetPropertyInt()"
+            ]
+        },
+    
+        "IClientEntity:SetPropertyFloat": {
+            "prefix": ":SetPropertyFloat",
+            "body": [
+                ":SetPropertyFloat()"
+            ]
+        },
+    
+        "IClientEntity:SetPropertyVector": {
+            "prefix": ":SetPropertyVector",
+            "body": [
+                ":SetPropertyVector()"
+            ]
+        },
+    
+        "IClientEntity:SetPropertyVector2D": {
+            "prefix": ":SetPropertyVector2D",
+            "body": [
+                ":SetPropertyVector2D()"
+            ]
+        },
+    
+        "IClientEntity:SetPropertyQAngle": {
+            "prefix": ":SetPropertyQAngle",
+            "body": [
+                ":SetPropertyQAngle()"
+            ]
+        },
+    
+        "IClientEntity:SetPropertyHandle": {
+            "prefix": ":SetPropertyHandle",
+            "body": [
+                ":SetPropertyHandle()"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// CUSERCMD //////////////////////////////////////////////////////
+        "CUserCmd": {
+            "prefix": "CUserCmd",
+            "body": [
+                "CUserCmd"
+            ]
+        },
+    
+        "CUserCmd.iCommandNumber": {
+            "prefix": "CUserCmd.iCommandNumber",
+            "body": [
+                "CUserCmd.iCommandNumber"
+            ]
+        },
+    
+        "CUserCmd.iTickCount": {
+            "prefix": "CUserCmd.iTickCount",
+            "body": [
+                "CUserCmd.iTickCount"
+            ]
+        },
+    
+        "CUserCmd.angViewPoint": {
+            "prefix": "CUserCmd.angViewPoint",
+            "body": [
+                "CUserCmd.angViewPoint"
+            ]
+        },
+    
+        "CUserCmd.flForwardMove": {
+            "prefix": "CUserCmd.flForwardMove",
+            "body": [
+                "CUserCmd.flForwardMove"
+            ]
+        },
+    
+        "CUserCmd.flSideMove": {
+            "prefix": "CUserCmd.flSideMove",
+            "body": [
+                "CUserCmd.flSideMove"
+            ]
+        },
+    
+        "CUserCmd.flUpMove": {
+            "prefix": "CUserCmd.flUpMove",
+            "body": [
+                "CUserCmd.flUpMove"
+            ]
+        },
+    
+        "CUserCmd.iButtons": {
+            "prefix": "CUserCmd.iButtons",
+            "body": [
+                "CUserCmd.iButtons"
+            ]
+        },
+    
+        "CUserCmd.uImpulse": {
+            "prefix": "CUserCmd.uImpulse",
+            "body": [
+                "CUserCmd.uImpulse"
+            ]
+        },
+    
+        "CUserCmd.iWeaponSelect": {
+            "prefix": "CUserCmd.iWeaponSelect",
+            "body": [
+                "CUserCmd.iWeaponSelect"
+            ]
+        },
+    
+        "CUserCmd.iWeaponSubType": {
+            "prefix": "CUserCmd.iWeaponSubType",
+            "body": [
+                "CUserCmd.iWeaponSubType"
+            ]
+        },
+    
+        "CUserCmd.iRandomSeed": {
+            "prefix": "CUserCmd.iRandomSeed",
+            "body": [
+                "CUserCmd.iRandomSeed"
+            ]
+        },
+    
+        "CUserCmd.sMouseDeltaX": {
+            "prefix": "CUserCmd.sMouseDeltaX",
+            "body": [
+                "CUserCmd.sMouseDeltaX"
+            ]
+        },
+    
+        "CUserCmd.sMouseDeltaY": {
+            "prefix": "CUserCmd.sMouseDeltaY",
+            "body": [
+                "CUserCmd.sMouseDeltaY"
+            ]
+        },
+    
+        "CUserCmd.bHasBeenPredicted": {
+            "prefix": "CUserCmd.bHasBeenPredicted",
+            "body": [
+                "CUserCmd.bHasBeenPredicted"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// CCONVAR //////////////////////////////////////////////////////
+        "CConVar:SetColor": {
+            "prefix": ":SetColor",
+            "body": [
+                ":SetColor(Color.new())"
+            ]
+        },
+    
+        "CConVar:ChangeCallback": {
+            "prefix": ":ChangeCallback",
+            "body": [
+                ":ChangeCallback()"
+            ]
+        },
+    
+    
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////// CORE //////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
+        ///////////////////////////////////////////// CLIENT //////////////////////////////////////////////////////
+        "Client": {
+            "prefix": "Client",
+            "body": [
+                "Client"
+            ]
+        },
+    
+        "Client.RegisterCallback": {
+            "prefix": "Client.RegisterCallback",
+            "body": [
+                "Client.RegisterCallback('', --function)"
+            ]
+        },
+    
+        "Client.RegisterEventCallback": {
+            "prefix": "Client.RegisterEventCallback",
+            "body": [
+                "Client.RegisterEventCallback('', --function)"
+            ]
+        },
+    
+        "Client.LoadScript": {
+            "prefix": "Client.LoadScript",
+            "body": [
+                "Client.LoadScript('')"
+            ]
+        },
+    
+        "Client.UnloadScript": {
+            "prefix": "Client.UnloadScript",
+            "body": [
+                "Client.UnloadScript('')"
+            ]
+        },
+    
+        "Client.FindPattern": {
+            "prefix": "Client.FindPattern",
+            "body": [
+                "Client.FindPattern('', '')"
+            ]
+        },
+    
+        "Client.CaptureInterface": {
+            "prefix": "Client.CaptureInterface",
+            "body": [
+                "Client.CaptureInterface('', '')"
+            ]
+        },
+    
+        "Client.GetCheatUserName": {
+            "prefix": "Client.GetCheatUserName",
+            "body": [
+                "Client.GetCheatUserName()"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// HTTP //////////////////////////////////////////////////////
+        "HTTP": {
+            "prefix": "HTTP",
+            "body": [
+                "HTTP"
+            ]
+        },
+    
+        "HTTP.Get": {
+            "prefix": "HTTP.Get",
+            "body": [
+                "HTTP.Get('')"
+            ]
+        },
+    
+        "HTTP.Post": {
+            "prefix": "HTTP.Post",
+            "body": [
+                "HTTP.Post('', '')"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// DRAW //////////////////////////////////////////////////////
+        "Draw": {
+            "prefix": "Draw",
+            "body": [
+                "Draw"
+            ]
+        },
+    
+        "Draw.WorldToScreen": {
+            "prefix": "Draw.WorldToScreen",
+            "body": [
+                "Draw.WorldToScreen()"
+            ]
+        },
+    
+        "Draw.AddLine": {
+            "prefix": "Draw.AddLine",
+            "body": [
+                "Draw.AddLine(Vector2D.new(), Vector2D.new(), Color.new())"
+            ]
+        },
+    
+        "Draw.AddRect": {
+            "prefix": "Draw.AddRect",
+            "body": [
+                "Draw.AddRect(Vector2D.new(), Vector2D.new, Color.new())"
+            ]
+        },
+    
+        "Draw.AddRectMultiColor": {
+            "prefix": "Draw.AddRectMultiColor",
+            "body": [
+                "Draw.AddRectMultiColor(Vector2D.new(), Vector2D.new(), Color.new(), Color.new(), Color.new(), Color.new())"
+            ]
+        },
+    
+        "Draw.AddBox3D": {
+            "prefix": "Draw.AddBox3D",
+            "body": [
+                "Draw.AddBox3D(Vector.new(), Vector.new(), Vector.new(), QAngle.new(), Color.new())"
+            ]
+        },
+    
+        "Draw.AddCircle": {
+            "prefix": "Draw.AddCircle",
+            "body": [
+                "Draw.AddCircle(Vector2D.new(), --radius, Color.new(), --segments)"
+            ]
+        },
+    
+        "Draw.AddCircle3D": {
+            "prefix": "Draw.AddCircle3D",
+            "body": [
+                "Draw.AddCircle3D()"
+            ]
+        },
+    
+        "Draw.AddTriangle": {
+            "prefix": "Draw.AddTriangle",
+            "body": [
+                "Draw.AddTriangle(Vector2D.new(), Vector2D.new(), Vector2D.new(), Color.new())"
+            ]
+        },
+    
+        "Draw.AddQuad": {
+            "prefix": "Draw.AddQuad",
+            "body": [
+                "Draw.AddQuad(Vector2D.new(), Vector2D.new(), Vector2D.new(), Vector2D.new(), Color.new())"
+            ]
+        },
+    
+        "Draw.AddArc": {
+            "prefix": "Draw.AddArc",
+            "body": [
+                "Draw.AddArc(Vector2D.new(), --radius, Vector2D.new(), Color.new(), --thickness)"
+            ]
+        },
+    
+        "Draw.AddPolygon": {
+            "prefix": "Draw.AddPolygon",
+            "body": [
+                "Draw.AddPolygon({ Vector2D.new(), Vector2D.new(), Vector2D.new(), Vector2D.new(), Vector2D.new() }, Color.new())"
+            ]
+        },
+    
+        "Draw.AddFont": {
+            "prefix": "Draw.AddFont",
+            "body": [
+                "Draw.AddFont('', --size)"
+            ]
+        },
+    
+        "Draw.RemoveFont": {
+            "prefix": "Draw.RemoveFont",
+            "body": [
+                "Draw.RemoveFont()"
+            ]
+        },
+    
+        "Draw.GetTextSize": {
+            "prefix": "Draw.GetTextSize",
+            "body": [
+                "Draw.GetTextSize()"
+            ]
+        },
+    
+        "Draw.AddText": {
+            "prefix": "Draw.AddText",
+            "body": [
+                "Draw.AddText(--font, --size, Vector2D.new(), '', Color.new())"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// CONFIG //////////////////////////////////////////////////////
+        "Config": {
+            "prefix": "Config",
+            "body": [
+                "Config"
+            ]
+        },
+    
+        "Config.Get": {
+            "prefix": "Config.Get",
+            "body": [
+                "Config.Get()"
+            ]
+        },
+    
+        "Config.GetVector": {
+            "prefix": "Config.GetVector",
+            "body": [
+                "Config.GetVector()"
+            ]
+        },
+    
+        "Config.Set": {
+            "prefix": "Config.Set",
+            "body": [
+                "Config.Set()"
+            ]
+        },
+    
+        "Config.SetVector": {
+            "prefix": "Config.SetVector",
+            "body": [
+                "Config.SetVector()"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// MENU //////////////////////////////////////////////////////
+        "Menu": {
+            "prefix": "Menu",
+            "body": [
+                "Menu"
+            ]
+        },
+    
+        "Menu.IsOpened": {
+            "prefix": "Menu.IsOpened",
+            "body": [
+                "Menu.IsOpened()"
+            ]
+        },
+    
+        "Menu.Button": {
+            "prefix": "Menu.Button",
+            "body": [
+                "Menu.Button('', --function)"
+            ]
+        },
+    
+        "Menu.Checkbox": {
+            "prefix": "Menu.Checkbox",
+            "body": [
+                "Menu.Checkbox('')"
+            ]
+        },
+    
+        "Menu.Toggle": {
+            "prefix": "Menu.Toggle",
+            "body": [
+                "Menu.Toggle('')"
+            ]
+        },
+    
+        "Menu.HotKey": {
+            "prefix": "Menu.HotKey",
+            "body": [
+                "Menu.HotKey('')"
+            ]
+        },
+    
+        "Menu.Combo": {
+            "prefix": "Menu.Combo",
+            "body": [
+                "Menu.Combo('', {})"
+            ]
+        },
+    
+        "Menu.MultiCombo": {
+            "prefix": "Menu.MultiCombo",
+            "body": [
+                "Menu.MultiCombo('', {})"
+            ]
+        },
+    
+        "Menu.SliderInt": {
+            "prefix": "Menu.SliderInt",
+            "body": [
+                "Menu.SliderInt('', --min, --max)"
+            ]
+        },
+    
+        "Menu.SliderFloat": {
+            "prefix": "Menu.SliderFloat",
+            "body": [
+                "Menu.SliderFloat('', --min, --max)"
+            ]
+        },
+    
+        "Menu.ColorPicker": {
+            "prefix": "Menu.ColorPicker",
+            "body": [
+                "Menu.ColorPicker('')"
+            ]
+        },
+    
+        "Menu.Get": {
+            "prefix": "Menu.Get",
+            "body": [
+                "Menu.Get('')"
+            ]
+        },
+    
+        "Menu.Set": {
+            "prefix": "Menu.Set",
+            "body": [
+                "Menu.Set('')"
+            ]
+        },
+    
+        "Menu.": {
+            "prefix": "Menu.DeleteWidget",
+            "body": [
+                "Menu.DeleteWidget('')"
+            ]
+        },
+    
+    
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////// DATATYPES /////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
+        ///////////////////////////////////////////// VECTOR //////////////////////////////////////////////////////
+        "Vector.IsZero": {
+            "prefix": ".IsZero",
+            "body": [
+                ".IsZero()"
+            ]
+        },
+    
+        "Vector.IsValid": {
+            "prefix": ".IsValid",
+            "body": [
+                ".IsValid()"
+            ]
+        },
+    
+        "Vector.Length": {
+            "prefix": ".Length",
+            "body": [
+                ".Length()"
+            ]
+        },
+    
+        "Vector.LengthSqr": {
+            "prefix": ".LengthSqr",
+            "body": [
+                ".LengthSqr()"
+            ]
+        },
+    
+        "Vector.Length2D": {
+            "prefix": ".Length2D",
+            "body": [
+                ".Length2D()"
+            ]
+        },
+    
+        "Vector.Length2DSqr": {
+            "prefix": ".Length2DSqr",
+            "body": [
+                ".Length2DSqr()"
+            ]
+        },
+    
+        "Vector.DistTo": {
+            "prefix": ".DistTo",
+            "body": [
+                ".DistTo()"
+            ]
+        },
+    
+        "Vector.DistToSqr": {
+            "prefix": ".DistToSqr",
+            "body": [
+                ".DistToSqr()"
+            ]
+        },
+    
+        "Vector.CrossProduct": {
+            "prefix": ".CrossProduct",
+            "body": [
+                ".CrossProduct()"
+            ]
+        },
+    
+        "Vector.Normalized": {
+            "prefix": ".Normalized",
+            "body": [
+                ".Normalized()"
+            ]
+        },
+    
+        "Vector.NormalizeInPlace": {
+            "prefix": ".NormalizeInPlace",
+            "body": [
+                ".NormalizeInPlace()"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// QANGLE //////////////////////////////////////////////////////
+        "QAngle.Clamp": {
+            "prefix": ".Clamp",
+            "body": [
+                ".Clamp()"
+            ]
+        },
+    
+    
+    
+        ///////////////////////////////////////////// COLOR //////////////////////////////////////////////////////
+        "Color": {
+            "prefix": "Color",
+            "body": [
+                "Color"
+            ]
+        },
+    
+        "Color.new": {
+            "prefix": "Color.new",
+            "body": [
+                "Color.new()"
+            ]
+        },
+    
+        "Color.FromHSB": {
+            "prefix": "Color.FromHSB",
+            "body": [
+                "Color.FromHSB()"
+            ]
+        },
+    
+        "Color:Hue": {
+            "prefix": ":Hue",
+            "body": [
+                ":Hue()"
+            ]
+        },
+    
+        "Color:Saturation": {
+            "prefix": ":Saturation",
+            "body": [
+                ":Saturation()"
+            ]
+        },
+    
+        "Color:Brightness": {
+            "prefix": ":Brightness",
+            "body": [
+                ":Brightness"
+            ]
+        },
+    }
