@@ -8,6 +8,7 @@
     
         ///////////////////////////////////////////// IGLOBALS //////////////////////////////////////////////////////	
         "IGlobals": {
+            "scope": "lua",
             "prefix": "IGlobals",
             "body": [
                 "IGlobals"
@@ -15,6 +16,7 @@
         },
         
         "IGlobals.flRealTime": {
+            "scope": "lua",
             "prefix": "IGlobals.flRealTime",
             "body": [
                 "IGlobals.flRealTime"
@@ -22,6 +24,7 @@
         },
     
         "IGlobals.iFrameCount": {
+            "scope": "lua",
             "prefix": "IGlobals.iFrameCount",
             "body": [
                 "IGlobals.iFrameCount"
@@ -29,6 +32,7 @@
         },
     
         "IGlobals.flAbsFrameTime": {
+            "scope": "lua",
             "prefix": "IGlobals.flAbsFrameTime",
             "body": [
                 "IGlobals.flAbsFrameTime"
@@ -36,6 +40,7 @@
         },
     
         "IGlobals.flAbsFrameStartTime": {
+            "scope": "lua",
             "prefix": "IGlobals.flAbsFrameStartTime",
             "body": [
                 "IGlobals.flAbsFrameStartTime"
@@ -43,6 +48,7 @@
         },
     
         "IGlobals.flCurrentTime": {
+            "scope": "lua",
             "prefix": "IGlobals.flCurrentTime",
             "body": [
                 "IGlobals.flCurrentTime"
@@ -50,6 +56,7 @@
         },
     
         "IGlobals.flFrameTime": {
+            "scope": "lua",
             "prefix": "IGlobals.flFrameTime",
             "body": [
                 "IGlobals.flFrameTime"
@@ -57,6 +64,7 @@
         },
     
         "IGlobals.nMaxClients": {
+            "scope": "lua",
             "prefix": "IGlobals.nMaxClients",
             "body": [
                 "IGlobals.nMaxClients"
@@ -64,6 +72,7 @@
         },
     
         "IGlobals.iTickCount": {
+            "scope": "lua",
             "prefix": "IGlobals.iTickCount",
             "body": [
                 "IGlobals.iTickCount"
@@ -71,6 +80,7 @@
         },
     
         "IGlobals.flIntervalPerTick": {
+            "scope": "lua",
             "prefix": "IGlobals.flIntervalPerTick",
             "body": [
                 "IGlobals.flIntervalPerTick"
@@ -78,6 +88,7 @@
         },
     
         "IGlobals.flInterpolationAmount": {
+            "scope": "lua",
             "prefix": "IGlobals.flInterpolationAmount",
             "body": [
                 "IGlobals.flInterpolationAmount"
@@ -85,6 +96,7 @@
         },
     
         "IGlobals.nFrameSimulationTicks": {
+            "scope": "lua",
             "prefix": "IGlobals.nFrameSimulationTicks",
             "body": [
                 "IGlobals.nFrameSimulationTicks"
@@ -92,6 +104,7 @@
         },
     
         "IGlobals.iNetworkProtocol": {
+            "scope": "lua",
             "prefix": "IGlobals.iNetworkProtocol",
             "body": [
                 "IGlobals.iNetworkProtocol"
@@ -102,6 +115,7 @@
     
         ///////////////////////////////////////////// ICLIENTSTATE //////////////////////////////////////////////////////
         "IClientState": {
+            "scope": "lua",
             "prefix": "IClientState",
             "body": [
                 "IClientState"
@@ -109,6 +123,7 @@
         },
     
         "IClientState.iChallengeNr": {
+            "scope": "lua",
             "prefix": "IClientState.iChallengeNr",
             "body": [
                 "IClientState.iChallengeNr"
@@ -116,6 +131,7 @@
         },
     
         "IClientState.iSignonState": {
+            "scope": "lua",
             "prefix": "IClientState.iSignonState",
             "body": [
                 "IClientState."
@@ -123,6 +139,7 @@
         },
     
         "IClientState.flNextCmdTime": {
+            "scope": "lua",
             "prefix": "IClientState.flNextCmdTime",
             "body": [
                 "IClientState.flNextCmdTime"
@@ -130,6 +147,7 @@
         },
     
         "IClientState.nServerCount": {
+            "scope": "lua",
             "prefix": "IClientState.nServerCount",
             "body": [
                 "IClientState.nServerCount"
@@ -137,6 +155,7 @@
         },
     
         "IClientState.iCurrentSequence": {
+            "scope": "lua",
             "prefix": "IClientState.iCurrentSequence",
             "body": [
                 "IClientState.iCurrentSequence"
@@ -144,6 +163,7 @@
         },
     
         "IClientState.iDeltaTick": {
+            "scope": "lua",
             "prefix": "IClientState.iDeltaTick",
             "body": [
                 "IClientState.iDeltaTick"
@@ -151,6 +171,7 @@
         },
     
         "IClientState.bPaused": {
+            "scope": "lua",
             "prefix": "IClientState.bPaused",
             "body": [
                 "IClientState.bPaused"
@@ -158,6 +179,7 @@
         },
     
         "IClientState.iViewEntity": {
+            "scope": "lua",
             "prefix": "IClientState.iViewEntity",
             "body": [
                 "IClientState.iViewEntity"
@@ -165,6 +187,7 @@
         },
     
         "IClientState.iPlayerSlot": {
+            "scope": "lua",
             "prefix": "IClientState.iPlayerSlot",
             "body": [
                 "IClientState.iPlayerSlot"
@@ -172,6 +195,7 @@
         },
     
         "IClientState.nMaxClients": {
+            "scope": "lua",
             "prefix": "IClientState.nMaxClients",
             "body": [
                 "IClientState.nMaxClients"
@@ -179,6 +203,7 @@
         },
     
         "IClientState.flLastServerTickTime": {
+            "scope": "lua",
             "prefix": "IClientState.flLastServerTickTime",
             "body": [
                 "IClientState.flLastServerTickTime"
@@ -186,6 +211,7 @@
         },
     
         "IClientState.bInSimulation": {
+            "scope": "lua",
             "prefix": "IClientState.bInSimulation",
             "body": [
                 "IClientState.bInSimulation"
@@ -193,6 +219,7 @@
         },
     
         "IClientState.iOldTickcount": {
+            "scope": "lua",
             "prefix": "IClientState.iOldTickcount",
             "body": [
                 "IClientState.iOldTickcount"
@@ -200,6 +227,7 @@
         },
     
         "IClientState.flFrameTime": {
+            "scope": "lua",
             "prefix": "IClientState.flFrameTime",
             "body": [
                 "IClientState.flFrameTime"
@@ -207,6 +235,7 @@
         },
     
         "IClientState.iLastOutgoingCommand": {
+            "scope": "lua",
             "prefix": "IClientState.iLastOutgoingCommand",
             "body": [
                 "IClientState.iLastOutgoingCommand"
@@ -214,6 +243,7 @@
         },
     
         "IClientState.nChokedCommands": {
+            "scope": "lua",
             "prefix": "IClientState.nChokedCommands",
             "body": [
                 "IClientState.nChokedCommands"
@@ -221,6 +251,7 @@
         },
     
         "IClientState.iLastCommandAck": {
+            "scope": "lua",
             "prefix": "IClientState.iLastCommandAck",
             "body": [
                 "IClientState.iLastCommandAck"
@@ -228,6 +259,7 @@
         },
     
         "IClientState.iCommandAck": {
+            "scope": "lua",
             "prefix": "IClientState.iCommandAck",
             "body": [
                 "IClientState.iCommandAck"
@@ -235,6 +267,7 @@
         },
     
         "IClientState.iSoundSequence": {
+            "scope": "lua",
             "prefix": "IClientState.iSoundSequence",
             "body": [
                 "IClientState.iSoundSequence"
@@ -242,6 +275,7 @@
         },
     
         "IClientState.angViewPoint": {
+            "scope": "lua",
             "prefix": "IClientState.angViewPoint",
             "body": [
                 "IClientState.angViewPoint"
@@ -252,6 +286,7 @@
     
         ///////////////////////////////////////////// ICONVAR //////////////////////////////////////////////////////
         "IConVar": {
+            "scope": "lua",
             "prefix": "IConVar",
             "body": [
                 "IConVar"
@@ -259,6 +294,7 @@
         },
     
         "IConVar.FindVar": {
+            "scope": "lua",
             "prefix": "IConVar.FindVar",
             "body": [
                 "IConVar.FindVar('')"
@@ -266,6 +302,7 @@
         },
     
         "IConVar.ConsolePrintf": {
+            "scope": "lua",
             "prefix": "IConVar.ConsolePrintf",
             "body": [
                 "IConVar.ConsolePrintf('')"
@@ -273,6 +310,7 @@
         },
     
         "IConVar.ConsoleColorPrintf": {
+            "scope": "lua",
             "prefix": "IConVar.ConsoleColorPrintf",
             "body": [
                 "IConVar.ConsoleColorPrintf(Color.new(), '')"
@@ -283,6 +321,7 @@
     
         ///////////////////////////////////////////// IENGINE //////////////////////////////////////////////////////
         "IEngine": {
+            "scope": "lua",
             "prefix": "IEngine",
             "body": [
                 "IEngine"
@@ -290,6 +329,7 @@
         },
     
         "IEngine.GetScreenSize": {
+            "scope": "lua",
             "prefix": "IEngine.GetScreenSize",
             "body": [
                 "IEngine.GetScreenSize()"
@@ -297,6 +337,7 @@
         },
     
         "IEngine.GetPlayerInfo": {
+            "scope": "lua",
             "prefix": "IEngine.GetPlayerInfo",
             "body": [
                 "IEngine.GetPlayerInfo()"
@@ -304,6 +345,7 @@
         },
     
         "IEngine.GetPlayerForUserID": {
+            "scope": "lua",
             "prefix": "IEngine.GetPlayerForUserID",
             "body": [
                 "IEngine.GetPlayerForUserID()"
@@ -311,6 +353,7 @@
         },
     
         "IEngine.GetLocalPlayer": {
+            "scope": "lua",
             "prefix": "IEngine.GetLocalPlayer",
             "body": [
                 "IEngine.GetLocalPlayer()"
@@ -318,6 +361,7 @@
         },
     
         "IEngine.GetViewAngles": {
+            "scope": "lua",
             "prefix": "IEngine.GetViewAngles",
             "body": [
                 "IEngine.GetViewAngles()"
@@ -325,6 +369,7 @@
         },
     
         "IEngine.SetViewAngles": {
+            "scope": "lua",
             "prefix": "IEngine.SetViewAngles",
             "body": [
                 "IEngine.SetViewAngles(QAngle.new())"
@@ -332,6 +377,7 @@
         },
     
         "IEngine.GetMaxClients": {
+            "scope": "lua",
             "prefix": "IEngine.GetMaxClients",
             "body": [
                 "IEngine.GetMaxClients()"
@@ -339,6 +385,7 @@
         },
     
         "IEngine.IsInGame": {
+            "scope": "lua",
             "prefix": "IEngine.IsInGame",
             "body": [
                 "IEngine.IsInGame()"
@@ -346,6 +393,7 @@
         },
     
         "IEngine.IsConnected": {
+            "scope": "lua",
             "prefix": "IEngine.IsConnected",
             "body": [
                 "IEngine.IsConnected()"
@@ -353,6 +401,7 @@
         },
     
         "IEngine.GetLevelName": {
+            "scope": "lua",
             "prefix": "IEngine.GetLevelName",
             "body": [
                 "IEngine.GetLevelName()"
@@ -360,6 +409,7 @@
         },
     
         "IEngine.GetLevelNameShort": {
+            "scope": "lua",
             "prefix": "IEngine.GetLevelNameShort",
             "body": [
                 "IEngine.GetLevelNameShort()"
@@ -367,6 +417,7 @@
         },
     
         "IEngine.GetMapGroupName": {
+            "scope": "lua",
             "prefix": "IEngine.GetMapGroupName",
             "body": [
                 "IEngine.GetMapGroupName()"
@@ -374,6 +425,7 @@
         },
     
         "IEngine.GetNetChannelInfo": {
+            "scope": "lua",
             "prefix": "IEngine.GetNetChannelInfo",
             "body": [
                 "IEngine.GetNetChannelInfo()"
@@ -381,6 +433,7 @@
         },
     
         "IEngine.IsPlayingDemo": {
+            "scope": "lua",
             "prefix": "IEngine.IsPlayingDemo",
             "body": [
                 "IEngine.IsPlayingDemo()"
@@ -388,6 +441,7 @@
         },
     
         "IEngine.IsRecordingDemo": {
+            "scope": "lua",
             "prefix": "IEngine.IsRecordingDemo",
             "body": [
                 "IEngine.IsRecordingDemo()"
@@ -395,6 +449,7 @@
         },
     
         "IEngine.IsPaused": {
+            "scope": "lua",
             "prefix": "IEngine.IsPaused",
             "body": [
                 "IEngine.IsPaused()"
@@ -402,6 +457,7 @@
         },
     
         "IEngine.IsHLTV": {
+            "scope": "lua",
             "prefix": "IEngine.IsHLTV",
             "body": [
                 "IEngine.IsHLTV()"
@@ -409,6 +465,7 @@
         },
     
         "IEngine.ExecuteClientCmd": {
+            "scope": "lua",
             "prefix": "IEngine.ExecuteClientCmd",
             "body": [
                 "IEngine.ExecuteClientCmd('')"
@@ -416,6 +473,7 @@
         },
     
         "IEngine.ClientCmdUnrestricted": {
+            "scope": "lua",
             "prefix": "IEngine.ClientCmdUnrestricted",
             "body": [
                 "IEngine.ClientCmdUnrestricted('')"
@@ -426,6 +484,7 @@
     
         ///////////////////////////////////////////// IENTITYLIST //////////////////////////////////////////////////////
         "IEntityList": {
+            "scope": "lua",
             "prefix": "IEntityList",
             "body": [
                 "IEntityList"
@@ -433,6 +492,7 @@
         },
     
         "IEntityList.GetClientEntity": {
+            "scope": "lua",
             "prefix": "IEntityList.GetClientEntity",
             "body": [
                 "IEntityList.GetClientEntity()"
@@ -440,6 +500,7 @@
         },
     
         "IEntityList.GetClientEntityFromHandle": {
+            "scope": "lua",
             "prefix": "IEntityList.GetClientEntityFromHandle",
             "body": [
                 "IEntityList.GetClientEntityFromHandle()"
@@ -447,6 +508,7 @@
         },
     
         "IEntityList.GetHighestEntityIndex": {
+            "scope": "lua",
             "prefix": "IEntityList.GetHighestEntityIndex",
             "body": [
                 "IEntityList.GetHighestEntityIndex()"
@@ -465,6 +527,7 @@
     
         ///////////////////////////////////////////// IENTITYLIST //////////////////////////////////////////////////////
         "PlayerInfo_t": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t",
             "body": [
                 "PlayerInfo_t"
@@ -472,6 +535,7 @@
         },
     
         "PlayerInfo_t.ullXuid": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.ullXuid",
             "body": [
                 "PlayerInfo_t.ullXuid"
@@ -479,6 +543,7 @@
         },
     
         "PlayerInfo_t.nXuidLow": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.nXuidLow",
             "body": [
                 "PlayerInfo_t.nXuidLow"
@@ -486,6 +551,7 @@
         },
     
         "PlayerInfo_t.nXuidHigh": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.nXuidHigh",
             "body": [
                 "PlayerInfo_t.nXuidHigh"
@@ -493,6 +559,7 @@
         },
     
         "PlayerInfo_t.szName": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.szName",
             "body": [
                 "PlayerInfo_t.szName"
@@ -500,6 +567,7 @@
         },
     
         "PlayerInfo_t.nUserID": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.nUserID",
             "body": [
                 "PlayerInfo_t.nUserID"
@@ -507,6 +575,7 @@
         },
     
         "PlayerInfo_t.nFriendsID": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.nFriendsID",
             "body": [
                 "PlayerInfo_t.nFriendsID"
@@ -514,6 +583,7 @@
         },
     
         "PlayerInfo_t.bFakePlayer": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.bFakePlayer",
             "body": [
                 "PlayerInfo_t.bFakePlayer"
@@ -521,6 +591,7 @@
         },
     
         "PlayerInfo_t.bIsHLTV": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.bIsHLTV",
             "body": [
                 "PlayerInfo_t.bIsHLTV"
@@ -528,6 +599,7 @@
         },
     
         "PlayerInfo_t.dFilesDownloaded": {
+            "scope": "lua",
             "prefix": "PlayerInfo_t.dFilesDownloaded",
             "body": [
                 "PlayerInfo_t.dFilesDownloaded"
@@ -538,6 +610,7 @@
     
         ///////////////////////////////////////////// CBASECOMBATWEAPON //////////////////////////////////////////////////////
         "CBaseCombatWeapon:IsReloading": {
+            "scope": "lua",
             "prefix": ":IsReloading",
             "body": [
                 ":IsReloading()"
@@ -545,6 +618,7 @@
         },
     
         "CBaseCombatWeapon:IsWeapon": {
+            "scope": "lua",
             "prefix": ":IsWeapon",
             "body": [
                 ":IsWeapon()"
@@ -552,6 +626,7 @@
         },
     
         "CBaseCombatWeapon:GetItemDefinitionIndex": {
+            "scope": "lua",
             "prefix": ":GetItemDefinitionIndex",
             "body": [
                 ":GetItemDefinitionIndex()"
@@ -559,6 +634,7 @@
         },
     
         "CBaseCombatWeapon:GetSpread": {
+            "scope": "lua",
             "prefix": ":GetSpread",
             "body": [
                 ":GetSpread()"
@@ -566,6 +642,7 @@
         },
     
         "CBaseCombatWeapon:GetInaccuracy": {
+            "scope": "lua",
             "prefix": ":GetInaccuracy",
             "body": [
                 ":GetInaccuracy()"
@@ -573,6 +650,7 @@
         },
     
         "CBaseCombatWeapon:GetMaxTickbaseShift": {
+            "scope": "lua",
             "prefix": ":GetMaxTickbaseShift",
             "body": [
                 ":GetMaxTickbaseShift()"
@@ -583,6 +661,7 @@
     
         ///////////////////////////////////////////// IGAMEEVENT //////////////////////////////////////////////////////
         "IGameEvent:GetName": {
+            "scope": "lua",
             "prefix": ":GetName",
             "body": [
                 ":GetName()"
@@ -590,6 +669,7 @@
         },
     
         "IGameEvent:GetBool": {
+            "scope": "lua",
             "prefix": ":GetBool",
             "body": [
                 ":GetBool()"
@@ -597,6 +677,7 @@
         },
     
         "IGameEvent:GetInt": {
+            "scope": "lua",
             "prefix": ":GetInt",
             "body": [
                 ":GetInt()"
@@ -604,6 +685,7 @@
         },
     
         "IGameEvent:GetUint64": {
+            "scope": "lua",
             "prefix": ":GetUint64",
             "body": [
                 ":GetUint64()"
@@ -611,6 +693,7 @@
         },
     
         "IGameEvent:GetFloat": {
+            "scope": "lua",
             "prefix": ":GetFloat",
             "body": [
                 ":GetFloat()"
@@ -618,6 +701,7 @@
         },
     
         "IGameEvent:GetString": {
+            "scope": "lua",
             "prefix": ":GetString",
             "body": [
                 ":GetString()"
@@ -625,6 +709,7 @@
         },
     
         "IGameEvent:SetBool": {
+            "scope": "lua",
             "prefix": ":SetBool",
             "body": [
                 ":SetBool()"
@@ -632,6 +717,7 @@
         },
     
         "IGameEvent:SetInt": {
+            "scope": "lua",
             "prefix": ":SetInt",
             "body": [
                 ":SetInt()"
@@ -639,6 +725,7 @@
         },
     
         "IGameEvent:SetUint64": {
+            "scope": "lua",
             "prefix": ":SetUint64",
             "body": [
                 ":SetUint64()"
@@ -646,6 +733,7 @@
         },
     
         "IGameEvent:SetFloat": {
+            "scope": "lua",
             "prefix": ":SetFloat",
             "body": [
                 ":SetFloat()"
@@ -653,6 +741,7 @@
         },
     
         "IGameEvent:SetString": {
+            "scope": "lua",
             "prefix": ":SetString",
             "body": [
                 ":SetString()"
@@ -663,6 +752,7 @@
     
         ///////////////////////////////////////////// INETCHANNELINFO //////////////////////////////////////////////////////
         "INetChannelInfo:GetName": {
+            "scope": "lua",
             "prefix": ":GetName",
             "body": [
                 ":GetName()"
@@ -670,6 +760,7 @@
         },
     
         "INetChannelInfo:GetAddress": {
+            "scope": "lua",
             "prefix": ":GetAddress",
             "body": [
                 ":GetAddress()"
@@ -677,6 +768,7 @@
         },
     
         "INetChannelInfo:IsLoopback": {
+            "scope": "lua",
             "prefix": ":IsLoopback",
             "body": [
                 ":IsLoopback()"
@@ -684,6 +776,7 @@
         },
     
         "INetChannelInfo:IsPlayback": {
+            "scope": "lua",
             "prefix": ":IsPlayback",
             "body": [
                 ":IsPlayback()"
@@ -691,6 +784,7 @@
         },
     
         "INetChannelInfo:GetLatency": {
+            "scope": "lua",
             "prefix": ":GetLatency",
             "body": [
                 ":GetLatency()"
@@ -698,6 +792,7 @@
         },
     
         "INetChannelInfo:GetAvgLatency": {
+            "scope": "lua",
             "prefix": ":GetAvgLatency",
             "body": [
                 ":GetAvgLatency()"
@@ -705,6 +800,7 @@
         },
     
         "INetChannelInfo:GetAvgLoss": {
+            "scope": "lua",
             "prefix": ":GetAvgLoss",
             "body": [
                 ":GetAvgLoss()"
@@ -712,6 +808,7 @@
         },
     
         "INetChannelInfo:GetAvgChoke": {
+            "scope": "lua",
             "prefix": ":GetAvgChoke",
             "body": [
                 ":GetAvgChoke()"
@@ -719,6 +816,7 @@
         },
     
         "INetChannelInfo:GetAvgData": {
+            "scope": "lua",
             "prefix": ":GetAvgData",
             "body": [
                 ":GetAvgData()"
@@ -726,6 +824,7 @@
         },
     
         "INetChannelInfo:GetAvgPackets": {
+            "scope": "lua",
             "prefix": ":GetAvgPackets",
             "body": [
                 ":GetAvgPackets()"
@@ -736,6 +835,7 @@
     
         ///////////////////////////////////////////// CBASEENTITY //////////////////////////////////////////////////////
         "CBaseEntity": {
+            "scope": "lua",
             "prefix": "CBaseEntity",
             "body": [
                 "CBaseEntity"
@@ -743,6 +843,7 @@
         },
     
         "CBaseEntity.GetLocalPlayer": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetLocalPlayer",
             "body": [
                 "CBaseEntity.GetLocalPlayer()"
@@ -750,6 +851,7 @@
         },
     
         "CBaseEntity.GetWeapon": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetWeapon",
             "body": [
                 "CBaseEntity.GetWeapon()"
@@ -757,6 +859,7 @@
         },
     
         "CBaseEntity.GetSequenceActivity": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetSequenceActivity",
             "body": [
                 "CBaseEntity.GetSequenceActivity()"
@@ -764,6 +867,7 @@
         },
     
         "CBaseEntity.IsAlive": {
+            "scope": "lua",
             "prefix": "CBaseEntity.IsAlive",
             "body": [
                 "CBaseEntity.IsAlive()"
@@ -771,6 +875,7 @@
         },
     
         "CBaseEntity.IsPlayer": {
+            "scope": "lua",
             "prefix": "CBaseEntity.IsPlayer",
             "body": [
                 "CBaseEntity.IsPlayer()"
@@ -778,6 +883,7 @@
         },
     
         "CBaseEntity.IsEnemy": {
+            "scope": "lua",
             "prefix": "CBaseEntity.IsEnemy",
             "body": [
                 "CBaseEntity.IsEnemy()"
@@ -785,6 +891,7 @@
         },
     
         "CBaseEntity.IsVisible": {
+            "scope": "lua",
             "prefix": "CBaseEntity.IsVisible",
             "body": [
                 "CBaseEntity.IsVisible()"
@@ -792,6 +899,7 @@
         },
     
         "CBaseEntity.GetSimulationTime": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetSimulationTime",
             "body": [
                 "CBaseEntity.GetSimulationTime()"
@@ -799,6 +907,7 @@
         },
     
         "CBaseEntity.GetOldSimulationTime": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetOldSimulationTime",
             "body": [
                 "CBaseEntity.GetOldSimulationTime()"
@@ -806,6 +915,7 @@
         },
     
         "CBaseEntity.GetSpawnTime": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetSpawnTime",
             "body": [
                 "CBaseEntity.GetSpawnTime()"
@@ -813,6 +923,7 @@
         },
     
         "CBaseEntity.GetMoveType": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetMoveType",
             "body": [
                 "CBaseEntity.GetMoveType()"
@@ -820,6 +931,7 @@
         },
     
         "CBaseEntity.GetEyePosition": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetEyePosition",
             "body": [
                 "CBaseEntity.GetEyePosition()"
@@ -827,6 +939,7 @@
         },
     
         "CBaseEntity.GetBonePosition": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetBonePosition",
             "body": [
                 "CBaseEntity.GetBonePosition()"
@@ -834,6 +947,7 @@
         },
     
         "CBaseEntity.GetHitGroupPosition": {
+            "scope": "lua",
             "prefix": "CBaseEntity.GetHitGroupPosition",
             "body": [
                 "CBaseEntity.GetHitGroupPosition()"
@@ -842,6 +956,7 @@
     
         ///////////////////////////////////////////// ICLIENTENTITY //////////////////////////////////////////////////////
         "IClientEntity:GetRefEHandle": {
+            "scope": "lua",
             "prefix": ":GetRefEHandle",
             "body": [
                 ":GetRefEHandle()"
@@ -849,6 +964,7 @@
         },
     
         "IClientEntity:GetRenderOrigin": {
+            "scope": "lua",
             "prefix": ":GetRenderOrigin",
             "body": [
                 ":GetRenderOrigin()"
@@ -856,6 +972,7 @@
         },
     
         "IClientEntity:GetRenderAngles": {
+            "scope": "lua",
             "prefix": ":GetRenderAngles",
             "body": [
                 ":GetRenderAngles()"
@@ -863,6 +980,7 @@
         },
     
         "IClientEntity:IsDormant": {
+            "scope": "lua",
             "prefix": ":IsDormant",
             "body": [
                 ":IsDormant()"
@@ -870,6 +988,7 @@
         },
     
         "IClientEntity:GetIndex": {
+            "scope": "lua",
             "prefix": ":GetIndex",
             "body": [
                 ":GetIndex()"
@@ -877,6 +996,7 @@
         },
     
         "IClientEntity:GetAbsOrigin": {
+            "scope": "lua",
             "prefix": ":GetAbsOrigin",
             "body": [
                 ":GetAbsOrigin()"
@@ -884,6 +1004,7 @@
         },
     
         "IClientEntity:GetAbsAngles": {
+            "scope": "lua",
             "prefix": ":GetAbsAngles",
             "body": [
                 ":GetAbsAngles()"
@@ -891,6 +1012,7 @@
         },
     
         "IClientEntity:SetAbsOrigin": {
+            "scope": "lua",
             "prefix": ":SetAbsOrigin",
             "body": [
                 ":SetAbsOrigin(Vector.new())"
@@ -898,6 +1020,7 @@
         },
     
         "IClientEntity:SetAbsAngles": {
+            "scope": "lua",
             "prefix": ":SetAbsAngles",
             "body": [
                 ":SetAbsAngles(QAngle.new())"
@@ -905,6 +1028,7 @@
         },
     
         "IClientEntity:SetModelIndex": {
+            "scope": "lua",
             "prefix": ":SetModelIndex",
             "body": [
                 ":SetModelIndex()"
@@ -912,6 +1036,7 @@
         },
     
         "IClientEntity:GetPropertyBool": {
+            "scope": "lua",
             "prefix": ":GetPropertyBool",
             "body": [
                 ":GetPropertyBool()"
@@ -919,6 +1044,7 @@
         },
     
         "IClientEntity:GetPropertyInt": {
+            "scope": "lua",
             "prefix": ":GetPropertyInt",
             "body": [
                 ":GetPropertyInt()"
@@ -926,6 +1052,7 @@
         },
     
         "IClientEntity:GetPropertyFloat": {
+            "scope": "lua",
             "prefix": ":GetPropertyFloat",
             "body": [
                 ":GetPropertyFloat()"
@@ -933,6 +1060,7 @@
         },
     
         "IClientEntity:GetPropertyVector": {
+            "scope": "lua",
             "prefix": ":GetPropertyVector",
             "body": [
                 ":GetPropertyVector()"
@@ -940,6 +1068,7 @@
         },
     
         "IClientEntity:GetPropertyVector2D": {
+            "scope": "lua",
             "prefix": ":GetPropertyVector2D",
             "body": [
                 ":GetPropertyVector2D()"
@@ -947,6 +1076,7 @@
         },
     
         "IClientEntity:GetPropertyQAngle": {
+            "scope": "lua",
             "prefix": ":GetPropertyQAngle",
             "body": [
                 ":GetPropertyQAngle()"
@@ -954,6 +1084,7 @@
         },
     
         "IClientEntity:GetPropertyHandle": {
+            "scope": "lua",
             "prefix": ":GetPropertyHandle",
             "body": [
                 ":GetPropertyHandle()"
@@ -961,6 +1092,7 @@
         },
     
         "IClientEntity:SetPropertyBool": {
+            "scope": "lua",
             "prefix": ":SetPropertyBool",
             "body": [
                 ":SetPropertyBool()"
@@ -968,6 +1100,7 @@
         },
     
         "IClientEntity:SetPropertyInt": {
+            "scope": "lua",
             "prefix": ":SetPropertyInt",
             "body": [
                 ":SetPropertyInt()"
@@ -975,6 +1108,7 @@
         },
     
         "IClientEntity:SetPropertyFloat": {
+            "scope": "lua",
             "prefix": ":SetPropertyFloat",
             "body": [
                 ":SetPropertyFloat()"
@@ -982,6 +1116,7 @@
         },
     
         "IClientEntity:SetPropertyVector": {
+            "scope": "lua",
             "prefix": ":SetPropertyVector",
             "body": [
                 ":SetPropertyVector()"
@@ -989,6 +1124,7 @@
         },
     
         "IClientEntity:SetPropertyVector2D": {
+            "scope": "lua",
             "prefix": ":SetPropertyVector2D",
             "body": [
                 ":SetPropertyVector2D()"
@@ -996,6 +1132,7 @@
         },
     
         "IClientEntity:SetPropertyQAngle": {
+            "scope": "lua",
             "prefix": ":SetPropertyQAngle",
             "body": [
                 ":SetPropertyQAngle()"
@@ -1003,6 +1140,7 @@
         },
     
         "IClientEntity:SetPropertyHandle": {
+            "scope": "lua",
             "prefix": ":SetPropertyHandle",
             "body": [
                 ":SetPropertyHandle()"
@@ -1013,6 +1151,7 @@
     
         ///////////////////////////////////////////// CUSERCMD //////////////////////////////////////////////////////
         "CUserCmd": {
+            "scope": "lua",
             "prefix": "CUserCmd",
             "body": [
                 "CUserCmd"
@@ -1020,6 +1159,7 @@
         },
     
         "CUserCmd.iCommandNumber": {
+            "scope": "lua",
             "prefix": "CUserCmd.iCommandNumber",
             "body": [
                 "CUserCmd.iCommandNumber"
@@ -1027,6 +1167,7 @@
         },
     
         "CUserCmd.iTickCount": {
+            "scope": "lua",
             "prefix": "CUserCmd.iTickCount",
             "body": [
                 "CUserCmd.iTickCount"
@@ -1034,6 +1175,7 @@
         },
     
         "CUserCmd.angViewPoint": {
+            "scope": "lua",
             "prefix": "CUserCmd.angViewPoint",
             "body": [
                 "CUserCmd.angViewPoint"
@@ -1041,6 +1183,7 @@
         },
     
         "CUserCmd.flForwardMove": {
+            "scope": "lua",
             "prefix": "CUserCmd.flForwardMove",
             "body": [
                 "CUserCmd.flForwardMove"
@@ -1048,6 +1191,7 @@
         },
     
         "CUserCmd.flSideMove": {
+            "scope": "lua",
             "prefix": "CUserCmd.flSideMove",
             "body": [
                 "CUserCmd.flSideMove"
@@ -1055,6 +1199,7 @@
         },
     
         "CUserCmd.flUpMove": {
+            "scope": "lua",
             "prefix": "CUserCmd.flUpMove",
             "body": [
                 "CUserCmd.flUpMove"
@@ -1062,6 +1207,7 @@
         },
     
         "CUserCmd.iButtons": {
+            "scope": "lua",
             "prefix": "CUserCmd.iButtons",
             "body": [
                 "CUserCmd.iButtons"
@@ -1069,6 +1215,7 @@
         },
     
         "CUserCmd.uImpulse": {
+            "scope": "lua",
             "prefix": "CUserCmd.uImpulse",
             "body": [
                 "CUserCmd.uImpulse"
@@ -1076,6 +1223,7 @@
         },
     
         "CUserCmd.iWeaponSelect": {
+            "scope": "lua",
             "prefix": "CUserCmd.iWeaponSelect",
             "body": [
                 "CUserCmd.iWeaponSelect"
@@ -1083,6 +1231,7 @@
         },
     
         "CUserCmd.iWeaponSubType": {
+            "scope": "lua",
             "prefix": "CUserCmd.iWeaponSubType",
             "body": [
                 "CUserCmd.iWeaponSubType"
@@ -1090,6 +1239,7 @@
         },
     
         "CUserCmd.iRandomSeed": {
+            "scope": "lua",
             "prefix": "CUserCmd.iRandomSeed",
             "body": [
                 "CUserCmd.iRandomSeed"
@@ -1097,6 +1247,7 @@
         },
     
         "CUserCmd.sMouseDeltaX": {
+            "scope": "lua",
             "prefix": "CUserCmd.sMouseDeltaX",
             "body": [
                 "CUserCmd.sMouseDeltaX"
@@ -1104,6 +1255,7 @@
         },
     
         "CUserCmd.sMouseDeltaY": {
+            "scope": "lua",
             "prefix": "CUserCmd.sMouseDeltaY",
             "body": [
                 "CUserCmd.sMouseDeltaY"
@@ -1111,6 +1263,7 @@
         },
     
         "CUserCmd.bHasBeenPredicted": {
+            "scope": "lua",
             "prefix": "CUserCmd.bHasBeenPredicted",
             "body": [
                 "CUserCmd.bHasBeenPredicted"
@@ -1121,6 +1274,7 @@
     
         ///////////////////////////////////////////// CCONVAR //////////////////////////////////////////////////////
         "CConVar:SetColor": {
+            "scope": "lua",
             "prefix": ":SetColor",
             "body": [
                 ":SetColor(Color.new())"
@@ -1128,6 +1282,7 @@
         },
     
         "CConVar:ChangeCallback": {
+            "scope": "lua",
             "prefix": ":ChangeCallback",
             "body": [
                 ":ChangeCallback()"
@@ -1146,6 +1301,7 @@
     
         ///////////////////////////////////////////// CLIENT //////////////////////////////////////////////////////
         "Client": {
+            "scope": "lua",
             "prefix": "Client",
             "body": [
                 "Client"
@@ -1153,6 +1309,7 @@
         },
     
         "Client.RegisterCallback": {
+            "scope": "lua",
             "prefix": "Client.RegisterCallback",
             "body": [
                 "Client.RegisterCallback('', --function)"
@@ -1160,6 +1317,7 @@
         },
     
         "Client.RegisterEventCallback": {
+            "scope": "lua",
             "prefix": "Client.RegisterEventCallback",
             "body": [
                 "Client.RegisterEventCallback('', --function)"
@@ -1167,6 +1325,7 @@
         },
     
         "Client.LoadScript": {
+            "scope": "lua",
             "prefix": "Client.LoadScript",
             "body": [
                 "Client.LoadScript('')"
@@ -1174,13 +1333,15 @@
         },
     
         "Client.UnloadScript": {
+            "scope": "lua",
             "prefix": "Client.UnloadScript",
             "body": [
-                "Client.UnloadScript('')"
+                "Client.UnloadScript('')",
             ]
         },
     
         "Client.FindPattern": {
+            "scope": "lua",
             "prefix": "Client.FindPattern",
             "body": [
                 "Client.FindPattern('', '')"
@@ -1188,6 +1349,7 @@
         },
     
         "Client.CaptureInterface": {
+            "scope": "lua",
             "prefix": "Client.CaptureInterface",
             "body": [
                 "Client.CaptureInterface('', '')"
@@ -1195,6 +1357,7 @@
         },
     
         "Client.GetCheatUserName": {
+            "scope": "lua",
             "prefix": "Client.GetCheatUserName",
             "body": [
                 "Client.GetCheatUserName()"
@@ -1205,6 +1368,7 @@
     
         ///////////////////////////////////////////// HTTP //////////////////////////////////////////////////////
         "HTTP": {
+            "scope": "lua",
             "prefix": "HTTP",
             "body": [
                 "HTTP"
@@ -1212,6 +1376,7 @@
         },
     
         "HTTP.Get": {
+            "scope": "lua",
             "prefix": "HTTP.Get",
             "body": [
                 "HTTP.Get('')"
@@ -1219,6 +1384,7 @@
         },
     
         "HTTP.Post": {
+            "scope": "lua",
             "prefix": "HTTP.Post",
             "body": [
                 "HTTP.Post('', '')"
@@ -1229,6 +1395,7 @@
     
         ///////////////////////////////////////////// DRAW //////////////////////////////////////////////////////
         "Draw": {
+            "scope": "lua",
             "prefix": "Draw",
             "body": [
                 "Draw"
@@ -1236,6 +1403,7 @@
         },
     
         "Draw.WorldToScreen": {
+            "scope": "lua",
             "prefix": "Draw.WorldToScreen",
             "body": [
                 "Draw.WorldToScreen()"
@@ -1243,6 +1411,7 @@
         },
     
         "Draw.AddLine": {
+            "scope": "lua",
             "prefix": "Draw.AddLine",
             "body": [
                 "Draw.AddLine(Vector2D.new(), Vector2D.new(), Color.new())"
@@ -1250,6 +1419,7 @@
         },
     
         "Draw.AddRect": {
+            "scope": "lua",
             "prefix": "Draw.AddRect",
             "body": [
                 "Draw.AddRect(Vector2D.new(), Vector2D.new, Color.new())"
@@ -1257,6 +1427,7 @@
         },
     
         "Draw.AddRectMultiColor": {
+            "scope": "lua",
             "prefix": "Draw.AddRectMultiColor",
             "body": [
                 "Draw.AddRectMultiColor(Vector2D.new(), Vector2D.new(), Color.new(), Color.new(), Color.new(), Color.new())"
@@ -1264,6 +1435,7 @@
         },
     
         "Draw.AddBox3D": {
+            "scope": "lua",
             "prefix": "Draw.AddBox3D",
             "body": [
                 "Draw.AddBox3D(Vector.new(), Vector.new(), Vector.new(), QAngle.new(), Color.new())"
@@ -1271,6 +1443,7 @@
         },
     
         "Draw.AddCircle": {
+            "scope": "lua",
             "prefix": "Draw.AddCircle",
             "body": [
                 "Draw.AddCircle(Vector2D.new(), --radius, Color.new(), --segments)"
@@ -1278,6 +1451,7 @@
         },
     
         "Draw.AddCircle3D": {
+            "scope": "lua",
             "prefix": "Draw.AddCircle3D",
             "body": [
                 "Draw.AddCircle3D()"
@@ -1285,6 +1459,7 @@
         },
     
         "Draw.AddTriangle": {
+            "scope": "lua",
             "prefix": "Draw.AddTriangle",
             "body": [
                 "Draw.AddTriangle(Vector2D.new(), Vector2D.new(), Vector2D.new(), Color.new())"
@@ -1292,6 +1467,7 @@
         },
     
         "Draw.AddQuad": {
+            "scope": "lua",
             "prefix": "Draw.AddQuad",
             "body": [
                 "Draw.AddQuad(Vector2D.new(), Vector2D.new(), Vector2D.new(), Vector2D.new(), Color.new())"
@@ -1299,6 +1475,7 @@
         },
     
         "Draw.AddArc": {
+            "scope": "lua",
             "prefix": "Draw.AddArc",
             "body": [
                 "Draw.AddArc(Vector2D.new(), --radius, Vector2D.new(), Color.new(), --thickness)"
@@ -1306,6 +1483,7 @@
         },
     
         "Draw.AddPolygon": {
+            "scope": "lua",
             "prefix": "Draw.AddPolygon",
             "body": [
                 "Draw.AddPolygon({ Vector2D.new(), Vector2D.new(), Vector2D.new(), Vector2D.new(), Vector2D.new() }, Color.new())"
@@ -1313,6 +1491,7 @@
         },
     
         "Draw.AddFont": {
+            "scope": "lua",
             "prefix": "Draw.AddFont",
             "body": [
                 "Draw.AddFont('', --size)"
@@ -1320,6 +1499,7 @@
         },
     
         "Draw.RemoveFont": {
+            "scope": "lua",
             "prefix": "Draw.RemoveFont",
             "body": [
                 "Draw.RemoveFont()"
@@ -1327,6 +1507,7 @@
         },
     
         "Draw.GetTextSize": {
+            "scope": "lua",
             "prefix": "Draw.GetTextSize",
             "body": [
                 "Draw.GetTextSize()"
@@ -1334,6 +1515,7 @@
         },
     
         "Draw.AddText": {
+            "scope": "lua",
             "prefix": "Draw.AddText",
             "body": [
                 "Draw.AddText(--font, --size, Vector2D.new(), '', Color.new())"
@@ -1344,6 +1526,7 @@
     
         ///////////////////////////////////////////// CONFIG //////////////////////////////////////////////////////
         "Config": {
+            "scope": "lua",
             "prefix": "Config",
             "body": [
                 "Config"
@@ -1351,6 +1534,7 @@
         },
     
         "Config.Get": {
+            "scope": "lua",
             "prefix": "Config.Get",
             "body": [
                 "Config.Get()"
@@ -1358,6 +1542,7 @@
         },
     
         "Config.GetVector": {
+            "scope": "lua",
             "prefix": "Config.GetVector",
             "body": [
                 "Config.GetVector()"
@@ -1365,6 +1550,7 @@
         },
     
         "Config.Set": {
+            "scope": "lua",
             "prefix": "Config.Set",
             "body": [
                 "Config.Set()"
@@ -1372,6 +1558,7 @@
         },
     
         "Config.SetVector": {
+            "scope": "lua",
             "prefix": "Config.SetVector",
             "body": [
                 "Config.SetVector()"
@@ -1382,6 +1569,7 @@
     
         ///////////////////////////////////////////// MENU //////////////////////////////////////////////////////
         "Menu": {
+            "scope": "lua",
             "prefix": "Menu",
             "body": [
                 "Menu"
@@ -1389,6 +1577,7 @@
         },
     
         "Menu.IsOpened": {
+            "scope": "lua",
             "prefix": "Menu.IsOpened",
             "body": [
                 "Menu.IsOpened()"
@@ -1396,6 +1585,7 @@
         },
     
         "Menu.Button": {
+            "scope": "lua",
             "prefix": "Menu.Button",
             "body": [
                 "Menu.Button('', --function)"
@@ -1403,6 +1593,7 @@
         },
     
         "Menu.Checkbox": {
+            "scope": "lua",
             "prefix": "Menu.Checkbox",
             "body": [
                 "Menu.Checkbox('')"
@@ -1410,6 +1601,7 @@
         },
     
         "Menu.Toggle": {
+            "scope": "lua",
             "prefix": "Menu.Toggle",
             "body": [
                 "Menu.Toggle('')"
@@ -1417,6 +1609,7 @@
         },
     
         "Menu.HotKey": {
+            "scope": "lua",
             "prefix": "Menu.HotKey",
             "body": [
                 "Menu.HotKey('')"
@@ -1424,6 +1617,7 @@
         },
     
         "Menu.Combo": {
+            "scope": "lua",
             "prefix": "Menu.Combo",
             "body": [
                 "Menu.Combo('', {})"
@@ -1431,6 +1625,7 @@
         },
     
         "Menu.MultiCombo": {
+            "scope": "lua",
             "prefix": "Menu.MultiCombo",
             "body": [
                 "Menu.MultiCombo('', {})"
@@ -1438,6 +1633,7 @@
         },
     
         "Menu.SliderInt": {
+            "scope": "lua",
             "prefix": "Menu.SliderInt",
             "body": [
                 "Menu.SliderInt('', --min, --max)"
@@ -1445,6 +1641,7 @@
         },
     
         "Menu.SliderFloat": {
+            "scope": "lua",
             "prefix": "Menu.SliderFloat",
             "body": [
                 "Menu.SliderFloat('', --min, --max)"
@@ -1452,6 +1649,7 @@
         },
     
         "Menu.ColorPicker": {
+            "scope": "lua",
             "prefix": "Menu.ColorPicker",
             "body": [
                 "Menu.ColorPicker('')"
@@ -1459,6 +1657,7 @@
         },
     
         "Menu.Get": {
+            "scope": "lua",
             "prefix": "Menu.Get",
             "body": [
                 "Menu.Get('')"
@@ -1466,6 +1665,7 @@
         },
     
         "Menu.Set": {
+            "scope": "lua",
             "prefix": "Menu.Set",
             "body": [
                 "Menu.Set('')"
@@ -1473,6 +1673,7 @@
         },
     
         "Menu.": {
+            "scope": "lua",
             "prefix": "Menu.DeleteWidget",
             "body": [
                 "Menu.DeleteWidget('')"
@@ -1491,6 +1692,7 @@
     
         ///////////////////////////////////////////// VECTOR //////////////////////////////////////////////////////
         "Vector.IsZero": {
+            "scope": "lua",
             "prefix": ".IsZero",
             "body": [
                 ".IsZero()"
@@ -1498,6 +1700,7 @@
         },
     
         "Vector.IsValid": {
+            "scope": "lua",
             "prefix": ".IsValid",
             "body": [
                 ".IsValid()"
@@ -1505,6 +1708,7 @@
         },
     
         "Vector.Length": {
+            "scope": "lua",
             "prefix": ".Length",
             "body": [
                 ".Length()"
@@ -1512,6 +1716,7 @@
         },
     
         "Vector.LengthSqr": {
+            "scope": "lua",
             "prefix": ".LengthSqr",
             "body": [
                 ".LengthSqr()"
@@ -1519,6 +1724,7 @@
         },
     
         "Vector.Length2D": {
+            "scope": "lua",
             "prefix": ".Length2D",
             "body": [
                 ".Length2D()"
@@ -1526,6 +1732,7 @@
         },
     
         "Vector.Length2DSqr": {
+            "scope": "lua",
             "prefix": ".Length2DSqr",
             "body": [
                 ".Length2DSqr()"
@@ -1533,6 +1740,7 @@
         },
     
         "Vector.DistTo": {
+            "scope": "lua",
             "prefix": ".DistTo",
             "body": [
                 ".DistTo()"
@@ -1540,6 +1748,7 @@
         },
     
         "Vector.DistToSqr": {
+            "scope": "lua",
             "prefix": ".DistToSqr",
             "body": [
                 ".DistToSqr()"
@@ -1547,6 +1756,7 @@
         },
     
         "Vector.CrossProduct": {
+            "scope": "lua",
             "prefix": ".CrossProduct",
             "body": [
                 ".CrossProduct()"
@@ -1554,6 +1764,7 @@
         },
     
         "Vector.Normalized": {
+            "scope": "lua",
             "prefix": ".Normalized",
             "body": [
                 ".Normalized()"
@@ -1561,6 +1772,7 @@
         },
     
         "Vector.NormalizeInPlace": {
+            "scope": "lua",
             "prefix": ".NormalizeInPlace",
             "body": [
                 ".NormalizeInPlace()"
@@ -1571,6 +1783,7 @@
     
         ///////////////////////////////////////////// QANGLE //////////////////////////////////////////////////////
         "QAngle.Clamp": {
+            "scope": "lua",
             "prefix": ".Clamp",
             "body": [
                 ".Clamp()"
@@ -1581,6 +1794,7 @@
     
         ///////////////////////////////////////////// COLOR //////////////////////////////////////////////////////
         "Color": {
+            "scope": "lua",
             "prefix": "Color",
             "body": [
                 "Color"
@@ -1588,6 +1802,7 @@
         },
     
         "Color.new": {
+            "scope": "lua",
             "prefix": "Color.new",
             "body": [
                 "Color.new()"
@@ -1595,6 +1810,7 @@
         },
     
         "Color.FromHSB": {
+            "scope": "lua",
             "prefix": "Color.FromHSB",
             "body": [
                 "Color.FromHSB()"
@@ -1602,6 +1818,7 @@
         },
     
         "Color:Hue": {
+            "scope": "lua",
             "prefix": ":Hue",
             "body": [
                 ":Hue()"
@@ -1609,6 +1826,7 @@
         },
     
         "Color:Saturation": {
+            "scope": "lua",
             "prefix": ":Saturation",
             "body": [
                 ":Saturation()"
@@ -1616,6 +1834,7 @@
         },
     
         "Color:Brightness": {
+            "scope": "lua",
             "prefix": ":Brightness",
             "body": [
                 ":Brightness"
