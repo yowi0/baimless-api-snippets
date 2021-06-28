@@ -7,7 +7,7 @@
 
 # 🙋‍♂️ Contribute 🙋‍♂️
 
-_If you see any mistake or have any issue feel free to oepn [issue](https://github.com/rollraw/baimless-api-book/issues) or if you want to improve the project you can open a [pull request](https://github.com/rollraw/baimless-api-book/pulls)_
+_If you see any mistake or have any issue feel free to open a [issue](https://github.com/rollraw/baimless-api-book/issues) or if you want to improve the project you can open a [pull request](https://github.com/rollraw/baimless-api-book/pulls)_
 
 ---
 ⌨️ with ❤️ by [yowi0](https://github.com/yowi0) 😊
